@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
+      "Id": "C:\\Users\\Hamela\\Desktop\\Elnet\\ELNET\\ELNET\\wwwroot\\documents\\DB2_PROJECT.xlsx",
+      "PackagePath": "staticwebassets\\documents\\DB2_PROJECT.xlsx"
+    },
+    {
       "Id": "C:\\Users\\Hamela\\Desktop\\Elnet\\ELNET\\ELNET\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
