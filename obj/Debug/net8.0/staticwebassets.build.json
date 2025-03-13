@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "bevF7WJseWkyozXDPuu4Ome+f6o74ytOdUpln5RvzFA=",
+=======
+  "Hash": "PQvyY6zJy6a3v/qCJeX1LK4b+UWAjNIagaf8tZOzMl4=",
+>>>>>>> 78475a606e179c1e25230707ba8b7f8bfb7c82dd
   "Source": "ELNET",
   "BasePath": "_content/ELNET",
   "Mode": "Default",
@@ -80,7 +84,32 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\arias\\source\\repos\\Sala2x\\homeowners\\wwwroot\\favicon.ico",
+=======
+      "Identity": "C:\\Users\\Hamela\\Desktop\\Elnet\\ELNET\\ELNET\\wwwroot\\documents\\DB2_PROJECT.xlsx",
+      "SourceId": "ELNET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hamela\\Desktop\\Elnet\\ELNET\\ELNET\\wwwroot\\",
+      "BasePath": "_content/ELNET",
+      "RelativePath": "documents/DB2_PROJECT#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ibn384x3ud",
+      "Integrity": "Mv93/CEB44T/UW8t319+5LH999WYxdijpwMUDEPHwsE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\DB2_PROJECT.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\Hamela\\Desktop\\Elnet\\ELNET\\ELNET\\wwwroot\\favicon.ico",
+>>>>>>> 78475a606e179c1e25230707ba8b7f8bfb7c82dd
       "SourceId": "ELNET",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\arias\\source\\repos\\Sala2x\\homeowners\\wwwroot\\",
@@ -1525,6 +1554,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pxpr0yjMH8tHWguOjikRG/bTfAyKz03uS3NSam3ZE0c="
+        }
+      ]
+    },
+    {
+      "Route": "documents/DB2_PROJECT.ibn384x3ud.xlsx",
+      "AssetFile": "C:\\Users\\Hamela\\Desktop\\Elnet\\ELNET\\ELNET\\wwwroot\\documents\\DB2_PROJECT.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mv93/CEB44T/UW8t319+5LH999WYxdijpwMUDEPHwsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 12:11:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ibn384x3ud"
+        },
+        {
+          "Name": "label",
+          "Value": "documents/DB2_PROJECT.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mv93/CEB44T/UW8t319+5LH999WYxdijpwMUDEPHwsE="
+        }
+      ]
+    },
+    {
+      "Route": "documents/DB2_PROJECT.xlsx",
+      "AssetFile": "C:\\Users\\Hamela\\Desktop\\Elnet\\ELNET\\ELNET\\wwwroot\\documents\\DB2_PROJECT.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mv93/CEB44T/UW8t319+5LH999WYxdijpwMUDEPHwsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 12:11:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mv93/CEB44T/UW8t319+5LH999WYxdijpwMUDEPHwsE="
         }
       ]
     },

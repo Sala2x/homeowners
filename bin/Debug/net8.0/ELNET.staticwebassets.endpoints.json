@@ -167,6 +167,88 @@
       ]
     },
     {
+      "Route": "documents/DB2_PROJECT.ibn384x3ud.xlsx",
+      "AssetFile": "documents/DB2_PROJECT.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mv93/CEB44T/UW8t319+5LH999WYxdijpwMUDEPHwsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 12:11:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ibn384x3ud"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mv93/CEB44T/UW8t319+5LH999WYxdijpwMUDEPHwsE="
+        },
+        {
+          "Name": "label",
+          "Value": "documents/DB2_PROJECT.xlsx"
+        }
+      ]
+    },
+    {
+      "Route": "documents/DB2_PROJECT.xlsx",
+      "AssetFile": "documents/DB2_PROJECT.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mv93/CEB44T/UW8t319+5LH999WYxdijpwMUDEPHwsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 12:11:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mv93/CEB44T/UW8t319+5LH999WYxdijpwMUDEPHwsE="
+        }
+      ]
+    },
+    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "favicon.ico",
       "Selectors": [],

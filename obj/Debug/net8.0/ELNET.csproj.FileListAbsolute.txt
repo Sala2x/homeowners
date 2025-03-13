@@ -34,6 +34,7 @@ C:\Users\Hamela\Desktop\Elnet\ELNET\ELNET\obj\Debug\net8.0\ELNET.genruntimeconfi
 C:\Users\Hamela\Desktop\Elnet\ELNET\ELNET\obj\Debug\net8.0\ref\ELNET.dll
 C:\Users\Hamela\Desktop\Elnet\ELNET\ELNET\bin\Debug\net8.0\package.json
 C:\Users\Hamela\Desktop\Elnet\ELNET\ELNET\bin\Debug\net8.0\package-lock.json
+<<<<<<< HEAD
 C:\Users\arias\source\repos\Sala2x\homeowners\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\arias\source\repos\Sala2x\homeowners\bin\Debug\net8.0\appsettings.json
 C:\Users\arias\source\repos\Sala2x\homeowners\bin\Debug\net8.0\package-lock.json
@@ -71,3 +72,6 @@ C:\Users\arias\source\repos\Sala2x\homeowners\obj\Debug\net8.0\refint\ELNET.dll
 C:\Users\arias\source\repos\Sala2x\homeowners\obj\Debug\net8.0\ELNET.pdb
 C:\Users\arias\source\repos\Sala2x\homeowners\obj\Debug\net8.0\ELNET.genruntimeconfig.cache
 C:\Users\arias\source\repos\Sala2x\homeowners\obj\Debug\net8.0\ref\ELNET.dll
+=======
+C:\Users\Hamela\Desktop\Elnet\ELNET\ELNET\obj\Debug\net8.0\ELNET.sourcelink.json
+>>>>>>> 78475a606e179c1e25230707ba8b7f8bfb7c82dd

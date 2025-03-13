@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="wwwroot\images\**" />
+=======
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\documents\" />
+>>>>>>> 78475a606e179c1e25230707ba8b7f8bfb7c82dd
   </ItemGroup>
 
 </Project>

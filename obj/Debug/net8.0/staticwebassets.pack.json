@@ -9,7 +9,15 @@
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\arias\\source\\repos\\Sala2x\\homeowners\\wwwroot\\favicon.ico",
+=======
+      "Id": "C:\\Users\\Hamela\\Desktop\\Elnet\\ELNET\\ELNET\\wwwroot\\documents\\DB2_PROJECT.xlsx",
+      "PackagePath": "staticwebassets\\documents\\DB2_PROJECT.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\Hamela\\Desktop\\Elnet\\ELNET\\ELNET\\wwwroot\\favicon.ico",
+>>>>>>> 78475a606e179c1e25230707ba8b7f8bfb7c82dd
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {

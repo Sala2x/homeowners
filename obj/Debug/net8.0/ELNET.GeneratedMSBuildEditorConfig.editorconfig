@@ -20,11 +20,23 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+<<<<<<< HEAD
 [C:/Users/arias/source/repos/Sala2x/homeowners/Views/Home/Announcement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbm5vdW5jZW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/arias/source/repos/Sala2x/homeowners/Views/Home/Index.cshtml]
+=======
+[C:/Users/Hamela/Desktop/Elnet/ELNET/ELNET/Controllers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbGxlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hamela/Desktop/Elnet/ELNET/ELNET/Views/Documents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hamela/Desktop/Elnet/ELNET/ELNET/Views/Home/Index.cshtml]
+>>>>>>> 78475a606e179c1e25230707ba8b7f8bfb7c82dd
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 

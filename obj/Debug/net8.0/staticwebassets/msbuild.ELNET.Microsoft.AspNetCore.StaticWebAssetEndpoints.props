@@ -12,6 +12,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jx3j0oyk9y"},{"Name":"integrity","Value":"sha256-pxpr0yjMH8tHWguOjikRG/bTfAyKz03uS3NSam3ZE0c="},{"Name":"label","Value":"_content/ELNET/css/styles.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"52"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pxpr0yjMH8tHWguOjikRG/bTfAyKz03uS3NSam3ZE0c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 11:37:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ELNET/documents/DB2_PROJECT.ibn384x3ud.xlsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\DB2_PROJECT.xlsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ibn384x3ud"},{"Name":"integrity","Value":"sha256-Mv93/CEB44T/UW8t319\u002B5LH999WYxdijpwMUDEPHwsE="},{"Name":"label","Value":"_content/ELNET/documents/DB2_PROJECT.xlsx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16168"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"},{"Name":"ETag","Value":"\u0022Mv93/CEB44T/UW8t319\u002B5LH999WYxdijpwMUDEPHwsE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 12:11:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ELNET/documents/DB2_PROJECT.xlsx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\DB2_PROJECT.xlsx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Mv93/CEB44T/UW8t319\u002B5LH999WYxdijpwMUDEPHwsE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"16168"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"},{"Name":"ETag","Value":"\u0022Mv93/CEB44T/UW8t319\u002B5LH999WYxdijpwMUDEPHwsE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 12:11:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ELNET/ELNET.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ELNET.gtpokal3bx.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

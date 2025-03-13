@@ -1,0 +1,99 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<Document>
+
+    <!-- Categories Section -->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card border-primary shadow">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Governing Documents</h5>
+                    <p class="card-text">Bylaws, CC&Rs, etc.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-success shadow">
+                <div class="card-body">
+                    <h5 class="card-title text-success">Meeting Minutes</h5>
+                    <p class="card-text">Records of HOA meetings.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-warning shadow">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Financial Reports</h5>
+                    <p class="card-text">Budgets, audits, etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Upload Section -->
+<div class="container mt-5">
+    <h2 class="text-info">Upload a Document</h2>
+    <form action="/Documents/Upload" method="POST" enctype="multipart/form-data" class="mt-4 border rounded p-4 bg-light shadow">
+        <div class="mb-3">
+            <label for="title" class="form-label fw-bold">Document Title</label>
+            <input type="text" class="form-control" id="title" name="title" required>
+        </div>
+        <div class="mb-3">
+            <label for="category" class="form-label fw-bold">Category</label>
+            <select class="form-select" id="category" name="category" required>
+                <option value="">Select Category</option>
+                <option value="governing-documents">Governing Documents</option>
+                <option value="meeting-minutes">Meeting Minutes</option>
+                <option value="financial-reports">Financial Reports</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="file" class="form-label fw-bold">Upload File</label>
+            <input type="file" class="form-control" id="file" name="file" required>
+        </div>
+        <button type="submit" class="btn btn-info text-white">Upload</button>
+    </form>
+</div>
+
+<div class="container mt-5">
+    <h2 class="text-secondary">All Documents</h2>
+    <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Search documents...">
+    </div>
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-hover table-bordered shadow">
+            <thead class="table-dark">
+                <tr>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th>Date Uploaded</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var doc in Model)
+                {
+                    if (doc != null)
+                    {
+                        <tr>
+                            <td>@(doc.Title ?? "Untitled")</td>
+                            <td>@(doc.Category ?? "Unknown")</td>
+                            <td>@doc.UploadDate.ToString("yyyy-MM-dd")</td>
+                            <td>
+                                <a href="/documents/@doc.FileName" class="btn btn-sm btn-success">Download</a>
+                                <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No documents found.</p>
+    }
+</div>
