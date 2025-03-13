@@ -1,4 +1,4 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ELNET.Models;
 
@@ -21,6 +21,12 @@ public class HomeController : Controller
     public IActionResult Privacy()
     {
         return View();
+    }
+
+    // ✅ New method to serve the Announcements page
+    public IActionResult Announcement()
+    {
+        return View();  // This returns the "announcement.cshtml" view inside Views/Home/
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

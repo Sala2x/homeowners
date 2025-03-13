@@ -2,6 +2,7 @@ wwwroot\css\styles.css
 wwwroot\favicon.ico
 wwwroot\images\clubhouse.png
 wwwroot\images\court.png
+wwwroot\images\image 7.png
 wwwroot\images\logo.png
 wwwroot\images\playground.png
 wwwroot\images\sunset.png

@@ -1,28 +1,70 @@
-﻿<div>
-    <!-- Hero Section -->
-    <div class="relative bg-cover bg-center h-96" style="background-image: url('path-to-your-image.jpg');">
-        <div class="absolute top-4 right-4 bg-white shadow rounded px-4 py-2">
-            <p class="font-bold">31°C</p>
-            <p>Mostly Cloudy</p>
-        </div>
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid p-0">
+    <div class="hero-image">
+        <img src="@Url.Content("~/images/image7.jpg")" class="img-fluid w-100" alt="Community">
     </div>
 
-    <!-- Features Section -->
-    <div class="grid grid-cols-3 gap-4 mt-8">
-        <div class="bg-white p-4 shadow rounded text-center">
-            <img src="~/images/clubhouse.png" alt="Clubhouse" class="h-32 mx-auto">
-            <h3 class="text-lg font-bold mt-2">Clubhouse</h3>
-        </div>
-        <div class="bg-white p-4 shadow rounded text-center">
-            <img src="~/images/court.png" alt="Basketball Court" class="h-32 mx-auto">
-            <h3 class="text-lg font-bold mt-2">Basketball Court</h3>
-        </div>
-        <div class="bg-white p-4 shadow rounded text-center">
-            <img src="~/images/playground.png" alt="Playground" class="h-32 mx-auto">
-            <h3 class="text-lg font-bold mt-2">Playground</h3>
-        </div>
+    <div class="container text-center mt-4">
+        <h2 class="mb-3">FEATURED LIST</h2>
+        <hr class="mx-auto" style="width: 150px; height: 2px; background-color: black;">
 
-        <button class="btn btn-primary">Bootstrap Button</button>
+        <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="@Url.Content("~/images/clubhouse.png")" class="card-img-top" alt="Clubhouse">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">CLUBHOUSE</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="@Url.Content("~/images/court.png")" class="card-img-top" alt="Basketball Court">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">BASKETBALL COURT</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="@Url.Content("~/images/playground.png")" class="card-img-top" alt="Playground">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">PLAYGROUND</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
 </div>
+
+<style>
+    .hero-image img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+</style>
