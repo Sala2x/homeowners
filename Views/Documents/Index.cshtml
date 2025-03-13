@@ -1,0 +1,84 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Document Management</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Governing Documents</h5>
+                    <p class="card-text">Bylaws, CC&Rs, etc.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Meeting Minutes</h5>
+                    <p class="card-text">Records of HOA meetings.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Financial Reports</h5>
+                    <p class="card-text">Budgets, audits, etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2>Upload a Document</h2>
+    <form action="/Documents/Upload" method="POST" enctype="multipart/form-data" class="mt-4">
+        <div class="mb-3">
+            <label for="title" class="form-label">Document Title</label>
+            <input type="text" class="form-control" id="title" name="title">
+        </div>
+        <div class="mb-3">
+            <label for="category" class="form-label">Category</label>
+            <select class="form-select" id="category" name="category">
+                <option value="governing-documents">Governing Documents</option>
+                <option value="meeting-minutes">Meeting Minutes</option>
+                <option value="financial-reports">Financial Reports</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="file" class="form-label">Upload File</label>
+            <input type="file" class="form-control" id="file" name="file">
+        </div>
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+</div>
+
+<div class="container mt-5">
+    <h2>All Documents</h2>
+    <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Search documents...">
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Date Uploaded</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bylaws</td>
+                <td>Governing Documents</td>
+                <td>2025-03-13</td>
+                <td>
+                    <a href="#" class="btn btn-sm btn-success">Download</a>
+                    <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
